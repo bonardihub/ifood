@@ -2,6 +2,7 @@ import Image from "next/image";
 import CategoryList from "./_components/ui/category-list";
 import Header from "./_components/ui/header";
 import Search from "./_components/ui/search";
+import ProductList from "./_components/ui/product-list";
 
 const Home = () => {
   return (
@@ -26,6 +27,9 @@ const Home = () => {
           quality={100}
         />
       </div>
+
+      <ProductList />
+
     </>
   );
 };
